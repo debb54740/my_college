@@ -1,0 +1,77 @@
+*{
+   
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+  
+}
+body{
+max-width: 1100px;
+    background-image: url(university-1100.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+   height: 100%;
+   background-size: cover;
+}
+header{
+
+}
+h1{
+    color: white;
+}
+
+ 
+nav li{
+    width: 60%;
+    padding-left: 37% ;
+    display: flex;
+justify-content: space-around;    
+}
+a{
+    text-decoration: none;
+    color: rgb(243, 243, 243);   
+}
+a:hover{
+    background: rgb(212, 171, 141);
+}
+h2{
+    margin-left: 35%;
+   height: 50%;
+   position: absolute;bottom: 30%;
+    display: flex;
+   align-items: baseline;
+    width: 50%;
+    color: rgb(253, 245, 245);
+}
+button{
+    margin-left: 45%;
+    position: absolute;bottom: 66%;
+     display: flex;
+    align-items: center;
+    background-color: rgb(132, 148, 200);
+     
+}
+button:hover{
+    background: rgb(159, 159, 230);
+}
+
+main{
+width: 100%;
+display: flex;
+margin-top: 25em;
+    position: absolute; 
+       }
+.recherche{
+    display: flex;
+    padding: 0%;
+    text-align: center;
+    justify-content: space-around ;
+}
+span{
+    color: salmon;
+}
+.main_1{
+    display: flex;
+    background-color: tomato;
+    width: 100%;
+}
